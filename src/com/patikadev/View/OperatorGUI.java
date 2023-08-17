@@ -48,7 +48,6 @@ public class OperatorGUI extends JFrame {
         tbl_user_list.setModel(mdl_user_list);
         tbl_user_list.getTableHeader().setReorderingAllowed(false);
     }
-
     public static void main(String[] args) {
         Helper.setLayout();
         Operator operator1 = new Operator();
